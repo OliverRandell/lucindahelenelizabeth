@@ -1,0 +1,52 @@
+.image-gallery {
+  overflow: auto;
+  margin-left: -1% !important;
+}
+
+.image-gallery li {
+  float: left;
+  display: block;
+  margin: 0 0 1% 1%;
+  width: 19%;
+}
+
+.image-gallery li a {
+  text-align: center;
+  text-decoration: none !important;
+  color: #777;
+}
+
+.image-gallery li a span {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 3px 0;
+}
+
+.container-artwork {
+  margin: 2rem auto;
+  @media only screen and (min-width: 1200px) {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
+.artwork-thumb {
+  margin-bottom: 2rem;
+  @media only screen and (min-width: 1200px) {
+    margin-bottom: 4rem;
+  }
+  a {
+    text-align: center;
+    margin: auto;
+  }
+  img {
+    width: 50px;
+    display: block;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    margin: auto;
+  }
+}
