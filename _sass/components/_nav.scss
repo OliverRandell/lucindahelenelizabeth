@@ -6,27 +6,27 @@
     background-size: contain;
     box-sizing: border-box;
     display: block;
-    -webkit-box-shadow: 6px 6px 6px 0px rgba(204, 204, 204, 1);
-    -moz-box-shadow: 6px 6px 6px 0px rgba(204, 204, 204, 1);
-    box-shadow: 6px 6px 6px 0px rgba(204, 204, 204, 1);
-    transition: all 250ms ease;
+    // -webkit-box-shadow: 6px 6px 6px 0px rgba(204, 204, 204, 1);
+    // -moz-box-shadow: 6px 6px 6px 0px rgba(204, 204, 204, 1);
+    // box-shadow: 6px 6px 6px 0px rgba(204, 204, 204, 1);
+    // transition: all 250ms ease;
     &:focus {
       outline: none;
     }
     &:active {
-      transform: translateY(2px);
-      box-shadow: none;
+      //transform: translateY(2px);
+      // box-shadow: none;
     }
     &--about {
-      background-image: url("../imgs/ui/about.png");
+      background-image: url("../imgs/ui/btn-about_v2.svg");
       margin-right: 2.5rem;
-      width: 125px;
+      width: 134px;
       height: 60px;
     }
     &--artwork {
-      background-image: url("../imgs/ui/artwork_v2.png");
-      width: 181px;
-      height: 60px;
+      background-image: url("../imgs/ui/btn-artwork.svg");
+      width: 226px;
+      height: 54px;
     }
   }
 }
