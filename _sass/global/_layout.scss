@@ -24,6 +24,29 @@ body {
   justify-content: center;
   padding: 2rem 0;
   @media only screen and (min-width: 1200px) {
-    padding-top: 4rem 0;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.pg-intro {
+  text-align: center;
+  display: flex;
+  margin: 5rem auto 2rem;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (min-width: 1200px) {
+    margin-top: 8rem;
+  }
+  img {
+    width: 100%;
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+    display: block;
+    @media only screen and (min-width: 1200px) {
+      // width: 33%;
+      width: 33vw;
+      padding: 0;
+    }
   }
 }

@@ -1,8 +1,35 @@
 {{ content }}
 
-<section class="container-btn-back">
-  <a href="{{ site.baseurl }}/" class="btn-back">Back to home page</a>
+<section class="pg-intro">
+  <img
+    src="{{ site.baseurl }}/assets/imgs/about-sentence.svg"
+    alt="About sentece"
+  />
 </section>
-<section class="about-txt">
+
+<!-- <section class="about-txt">
   <img src="{{ site.baseurl }}/assets/imgs/about-txt.png" alt="About me text" />
-</section>
+</section> -->
+
+<!-- ABOUT ME MAP -->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <section class="about-map">
+        <a
+          href="{{ site.baseurl }}/assets/imgs/about-me-painting.png"
+          title="About me map"
+          target="_blank"
+        >
+          <img
+            src="{{ site.baseurl }}/assets/imgs/about-me-painting.png"
+            alt="About me map"
+            title="About me map"
+          />
+        </a>
+      </section>
+    </div>
+  </div>
+</div>
+
+{% include back.html %}
