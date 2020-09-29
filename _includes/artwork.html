@@ -3,8 +3,8 @@ if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG'
 or file.extname == '.JPEG' %}{% assign filenameparts = file.path | split: "/"
 %}{% assign filename = filenameparts | last | replace: file.extname,"" %}
 <section class="artwork-thumb col-2">
-  <a href="{{ relative_url }}" title="{{ filename }}" target="_blank">
-    <img src="{{ relative_url }}" alt="{{ filename }}" title="{{ filename }}" />
+  <a href="{{ file.path }}" title="{{ filename }}" target="_blank">
+    <img src="{{ file.path }}" alt="{{ filename }}" title="{{ filename }}" />
     <!-- <span>{{ filename }}</span> -->
   </a>
 </section>
